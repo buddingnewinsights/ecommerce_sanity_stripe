@@ -383,17 +383,16 @@ span.text-red {
 }
 
 .btn-container {
-  width: 400px;
+  width: 100%;
   margin: auto;
 }
 .btn {
   width: 100%;
-  max-width: 400px;
+  max-width: 500px;
   padding: 10px 12px;
   border-radius: 15px;
   border: none;
   font-size: 20px;
-  margin-top: 10px;
   margin-top: 40px;
   text-transform: uppercase;
   background-color: #f02d34;
@@ -610,23 +609,33 @@ span.text-red {
 }
 
 @media screen and (max-width: 800px) {
+  .image-container {
+    width: 100%
+  }
+  .left-hero-banner {
+    margin-left: -20px;
+    margin-top: -30px;
+  }
+  .right-hero-banner {
+    margin-left: -5px;
+  }
   .hero-banner-container {
     height: 560px;
   }
   .hero-banner-image {
-    width: 77%;
-    height: 62%;
-    top: -2%;
-    right: -6%;
+    width: 80%;
+    height: 60%;
+    top: 21%;
+    right: -5%;
   }
   .footer-banner-container {
     height: 560px;
     margin-top: 80px;
   }
   .footer-banner-image {
-    width: 77%;
+    width: 75%;
     left: 30%;
-    top: 6%;
+    top: -2%;
     height: 56%;
   }
   .banner-desc .left h3 {
@@ -670,8 +679,8 @@ span.text-red {
     flex-wrap: wrap;
   }
   .product-detail-container .product-detail-image {
-    width: 350px;
-    height: 350px;
+    width: 340px;
+    height: 340px;
   }
   .cart-container {
     width: 415px;
@@ -679,9 +688,11 @@ span.text-red {
   }
   .cart-heading {
     margin-top: 35px;
+    margin-left: 35px;
   }
   .product-container {
     margin-top: 10px;
+    margin-left: 35px;
   }
   .product {
     padding: 20px 5px;
@@ -719,7 +730,8 @@ span.text-red {
     color: black;
   }
   .cart-bottom {
-    padding: 30px;
+    padding: 30px 40px;
+    margin: 0 -10px;
   }
 
   .total h3 {
@@ -746,7 +758,7 @@ span.text-red {
     font-size: 17px;
   }
   .btn-container {
-    width: 300px;
+    width: 100%;
     margin: auto;
   }
 }
